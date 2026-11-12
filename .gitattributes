@@ -1,0 +1,5 @@
+# HTML files are rendered notebook exports, not the project's source language.
+*.html linguist-generated=true
+
+# Count the executable notebook as the repository's primary source.
+*.ipynb linguist-detectable=true
