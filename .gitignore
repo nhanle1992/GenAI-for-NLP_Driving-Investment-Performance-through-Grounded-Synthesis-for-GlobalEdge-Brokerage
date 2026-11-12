@@ -9,3 +9,6 @@ config.json
 
 # Generated local vector database
 chroma_db/
+
+# Exported notebook copy (the .ipynb file is the source of truth)
+UTAIGA_Project_2_Full_Code_Notebook.html

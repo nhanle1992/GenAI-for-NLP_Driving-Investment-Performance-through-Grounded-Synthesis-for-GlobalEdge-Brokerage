@@ -2,6 +2,12 @@
 
 A proof-of-concept Retrieval-Augmented Generation (RAG) assistant that helps brokerage professionals turn financial news, market prices, and SEC filings into grounded, evidence-backed answers.
 
+## Main project notebook
+
+**[Open the Jupyter Notebook](UTAIGA_Project_2_Full_Code_Notebook.ipynb)**
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nhanle1992/GenAI-for-NLP_Driving-Investment-Performance-through-Grounded-Synthesis-for-GlobalEdge-Brokerage/blob/main/UTAIGA_Project_2_Full_Code_Notebook.ipynb)
+
 ## Project overview
 
 GlobalEdge Brokerage's brokers monitor equities, foreign exchange, commodities, crypto assets, and international markets while managing large client portfolios. The volume and variety of available information make it difficult to identify relevant developments quickly and support recommendations with traceable evidence.
@@ -126,7 +132,6 @@ The evaluation also identified several improvements needed before broader deploy
 .
 ├── Financial_Dataset/                 # News, prices, benchmark, and SEC text
 ├── UTAIGA_Project_2_Full_Code_Notebook.ipynb
-├── UTAIGA_Project_2_Full_Code_Notebook.html
 ├── baseline_evaluation_*.csv          # Baseline metric outputs
 ├── optimized_evaluation_*.csv         # Optimized prompt evaluation
 ├── rag_tuning_results/                # Configuration details and tuning outputs
