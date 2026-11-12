@@ -1,0 +1,313 @@
+[
+  {
+    "test_id": 1,
+    "question": "Compare the total revenue and net income reported by Apple, Amazon, and Alphabet in their latest 10-Q filings. Which company grew fastest year-over-year?",
+    "answer": "The retrieved context does not provide sufficient data on the total revenue and net income for Apple and Amazon in their latest 10-Q filings, making it impossible to directly compare these figures with Alphabet's reported results. \n\n### Available Data:\n1. **Alphabet (2023)**:\n   - **Total Revenue**: $307,394 million\n   - **Net Income**: $73,795 million\n   - **Year-over-Year Growth**: From 2022 to 2023, revenue grew from $282,836 million to $307,394 million, which is an increase of approximately 8.4%. Net income grew from $59,972 million to $73,795 million, an increase of approximately 23.1% [Source 2].\n\n### Implications of Insufficient Data:\nWithout the revenue and net income figures for Apple and Amazon, we cannot determine which company grew fastest year-over-year. This lack of data limits the ability to assess competitive performance and market positioning among these major tech companies. \n\n### Alternative Insights:\n- **Material Risks**: The absence of data on Apple and Amazon's financials means we cannot analyze their specific risks or growth trajectories. However, generally, tech companies face risks such as market competition, regulatory scrutiny, and economic fluctuations that could impact their revenues and profitability.\n- **Growth Trends**: Alphabet's growth in both revenue and net income suggests a strong performance, particularly in the digital advertising space, which is a critical area for tech companies. \n\nIn summary, while Alphabet shows promising growth, the lack of comparative data for Apple and Amazon prevents a comprehensive analysis of their performance relative to Alphabet.",
+    "config_id": "similarity_k5",
+    "config_signature": "6685daa78e643380",
+    "corpus_version": "financial_intelligence_v2:sec_filings_10k_fallback:sec_filings_10k.txt",
+    "configuration": {
+      "config_id": "similarity_k5",
+      "description": "Current similarity-retrieval depth of five passages",
+      "search_type": "similarity",
+      "chunk_size": 1200,
+      "chunk_overlap": 200,
+      "top_k": 5,
+      "fetch_k": null,
+      "lambda_mult": null,
+      "model": "gpt-4o-mini",
+      "temperature": 0.1,
+      "top_p": 1.0,
+      "max_tokens": 800,
+      "prompt_variant": "optimized",
+      "config_signature": "6685daa78e643380"
+    },
+    "prompt_alias": "financial_rag_prompt_optimized",
+    "retrieved_passage_count": 5,
+    "sources": [
+      {
+        "citation": "[Source 1]",
+        "dataset": "sec_filings_10k_fallback",
+        "source": "/Users/nhanle/Desktop/DBA/Projects Portfolio/Project 2/Financial_Dataset/Financial_Dataset/sec_filings_10k.txt",
+        "document_type": "10-K"
+      },
+      {
+        "citation": "[Source 2]",
+        "dataset": "sec_filings_10k_fallback",
+        "source": "/Users/nhanle/Desktop/DBA/Projects Portfolio/Project 2/Financial_Dataset/Financial_Dataset/sec_filings_10k.txt",
+        "document_type": "10-K"
+      },
+      {
+        "citation": "[Source 3]",
+        "dataset": "sec_filings_10k_fallback",
+        "source": "/Users/nhanle/Desktop/DBA/Projects Portfolio/Project 2/Financial_Dataset/Financial_Dataset/sec_filings_10k.txt",
+        "document_type": "10-K"
+      },
+      {
+        "citation": "[Source 4]",
+        "dataset": "sec_filings_10k_fallback",
+        "source": "/Users/nhanle/Desktop/DBA/Projects Portfolio/Project 2/Financial_Dataset/Financial_Dataset/sec_filings_10k.txt",
+        "document_type": "10-K"
+      },
+      {
+        "citation": "[Source 5]",
+        "dataset": "sec_filings_10k_fallback",
+        "source": "/Users/nhanle/Desktop/DBA/Projects Portfolio/Project 2/Financial_Dataset/Financial_Dataset/sec_filings_10k.txt",
+        "document_type": "10-K"
+      }
+    ],
+    "elapsed_seconds": 4.454966499994043
+  },
+  {
+    "test_id": 2,
+    "question": "Based on this week's news sentiment around Amazon, would you classify the current signal as bullish or bearish, and does the price data support that?",
+    "answer": "Based on the retrieved context, the current sentiment around Amazon (AMZN) appears to be bearish. The price data shows a decline from a high of $212.80 on March 23, 2026, to a close of $204.79 on February 18, 2026, indicating a downward trend. Specifically, the closing prices over the recent dates are as follows:\n\n- February 11, 2026: $204.08\n- February 18, 2026: $204.79\n- March 12, 2026: $209.53\n- March 19, 2026: $208.76\n- March 23, 2026: $210.14\n\nThe closing price on February 18 is slightly higher than on February 11, but the overall trend shows fluctuations without significant upward momentum, and the most recent closing price is lower than the highs observed earlier in March. This suggests a lack of sustained bullish sentiment.\n\nMaterial risks associated with this bearish signal include potential investor sentiment shifts, which could lead to increased volatility and further price declines. Additionally, if the bearish trend continues, it may impact trading volumes and liquidity, affecting brokers' ability to execute trades efficiently.\n\nIn summary, the price data does not support a bullish classification, and the bearish sentiment could pose risks for investors and brokers alike.",
+    "config_id": "similarity_k5",
+    "config_signature": "6685daa78e643380",
+    "corpus_version": "financial_intelligence_v2:sec_filings_10k_fallback:sec_filings_10k.txt",
+    "configuration": {
+      "config_id": "similarity_k5",
+      "description": "Current similarity-retrieval depth of five passages",
+      "search_type": "similarity",
+      "chunk_size": 1200,
+      "chunk_overlap": 200,
+      "top_k": 5,
+      "fetch_k": null,
+      "lambda_mult": null,
+      "model": "gpt-4o-mini",
+      "temperature": 0.1,
+      "top_p": 1.0,
+      "max_tokens": 800,
+      "prompt_variant": "optimized",
+      "config_signature": "6685daa78e643380"
+    },
+    "prompt_alias": "financial_rag_prompt_optimized",
+    "retrieved_passage_count": 5,
+    "sources": [
+      {
+        "citation": "[Source 1]",
+        "dataset": "stock_price_details",
+        "source": "AMZN",
+        "Date": "2026-02-11",
+        "ticker": "AMZN"
+      },
+      {
+        "citation": "[Source 2]",
+        "dataset": "stock_price_details",
+        "source": "AMZN",
+        "Date": "2026-02-18",
+        "ticker": "AMZN"
+      },
+      {
+        "citation": "[Source 3]",
+        "dataset": "stock_price_details",
+        "source": "AMZN",
+        "Date": "2026-03-23",
+        "ticker": "AMZN"
+      },
+      {
+        "citation": "[Source 4]",
+        "dataset": "stock_price_details",
+        "source": "AMZN",
+        "Date": "2026-03-12",
+        "ticker": "AMZN"
+      },
+      {
+        "citation": "[Source 5]",
+        "dataset": "stock_price_details",
+        "source": "AMZN",
+        "Date": "2026-03-19",
+        "ticker": "AMZN"
+      }
+    ],
+    "elapsed_seconds": 4.8849738339777105
+  },
+  {
+    "test_id": 3,
+    "question": "Should I invest in Apple right now? I heard Tim Cook is stepping down \u2014 is that a red flag? How's the stock been doing, and is there anything I should be worried about with the company's financials or risks?",
+    "answer": "The decision to invest in Apple right now is complicated by the recent announcement of Tim Cook's impending departure as CEO. While Cook's tenure saw a significant increase in Apple's market capitalization from $350 billion to $4 trillion, the stock has not consistently outperformed other S&P 500 stocks, as noted by a 1,881% gain that was described as \"far from No. 1\" [Source 1][Source 2].\n\nThe transition to a new CEO, John Ternus, could signal both risks and opportunities. On one hand, leadership changes can introduce uncertainty, which may affect investor confidence and stock performance. However, some analysts suggest that this transition could also indicate strength within the company, as it reflects a planned succession rather than a sudden departure [Source 4]. \n\nCurrently, the stock has shown slight declines in after-hours trading following the announcement of Cook's exit [Source 4]. This could imply short-term volatility, which is a material risk for potential investors. Additionally, the broader market context, including geopolitical factors like the US-Iran situation, may also influence stock performance [Source 3].\n\nIn summary, while there are potential risks associated with the leadership change, the overall financial health of Apple remains strong. However, the lack of specific recent financial data in the provided context limits a thorough analysis of current financial risks. Investors should consider these factors and monitor how the market reacts to the leadership transition before making investment decisions.",
+    "config_id": "similarity_k5",
+    "config_signature": "6685daa78e643380",
+    "corpus_version": "financial_intelligence_v2:sec_filings_10k_fallback:sec_filings_10k.txt",
+    "configuration": {
+      "config_id": "similarity_k5",
+      "description": "Current similarity-retrieval depth of five passages",
+      "search_type": "similarity",
+      "chunk_size": 1200,
+      "chunk_overlap": 200,
+      "top_k": 5,
+      "fetch_k": null,
+      "lambda_mult": null,
+      "model": "gpt-4o-mini",
+      "temperature": 0.1,
+      "top_p": 1.0,
+      "max_tokens": 800,
+      "prompt_variant": "optimized",
+      "config_signature": "6685daa78e643380"
+    },
+    "prompt_alias": "financial_rag_prompt_optimized",
+    "retrieved_passage_count": 5,
+    "sources": [
+      {
+        "citation": "[Source 1]",
+        "dataset": "global_news",
+        "source": "https://www.investors.com/etfs-and-funds/sectors/sp-500-stocks-blew-away-tim-cooks-apple-with-less-fanfare/",
+        "title": "36 S&P 500 Stocks Blew Away Tim Cook's Apple With Less Fanfare",
+        "published_at": "2026-04-22T12:00:59Z"
+      },
+      {
+        "citation": "[Source 2]",
+        "dataset": "global_news",
+        "source": "https://www.cnbc.com/2026/04/21/tim-cook-apple-steve-jobs-legacy.html",
+        "title": "Tim Cook turned Apple into a $4 trillion juggernaut by not trying to be Steve Jobs",
+        "published_at": "2026-04-21T15:14:19Z"
+      },
+      {
+        "citation": "[Source 3]",
+        "dataset": "global_news",
+        "source": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-dow-sp-500-and-nasdaq-climb-amid-apple-ceo-change-warsh-hearings-iran-uncertainty-231748048.html",
+        "title": "Stock market today: Dow, S&P 500, and Nasdaq climb amid Apple CEO change and Iran uncertainty",
+        "published_at": "2026-04-20T23:17:48Z"
+      },
+      {
+        "citation": "[Source 4]",
+        "dataset": "global_news",
+        "source": "https://insights.som.yale.edu/insights/apples-ceo-transition-signals-strength-not-uncertainty",
+        "title": "Apple\u2019s CEO Transition Signals Strength, Not Uncertainty",
+        "published_at": "2026-04-21T18:56:51Z"
+      },
+      {
+        "citation": "[Source 5]",
+        "dataset": "global_news",
+        "source": "https://www.dw.com/en/apple-switches-ceo-what-it-means-for-the-iphone-maker/a-76875625",
+        "title": "Apple switches CEO: What it means for the iPhone maker",
+        "published_at": "2026-04-21T11:17:00Z"
+      }
+    ],
+    "elapsed_seconds": 3.6721057500108145
+  },
+  {
+    "test_id": 4,
+    "question": "Is now a good time to buy Bitcoin? News is saying it just crossed $78k \u2014 am I too late? What's the price trend looked like over the last few months, and what's driving the current rally?",
+    "answer": "The context provided does not include specific information about the price trend of Bitcoin over the last few months leading up to the current price of $78,000, nor does it detail the factors driving the current rally. Therefore, I cannot definitively assess whether now is a good time to buy Bitcoin or if you are too late.\n\n### Implications of Insufficient Data:\n1. **Price Trend Analysis**: Without a comprehensive view of Bitcoin's price movements over the preceding months, it is challenging to determine if the current price represents a peak or a continuation of an upward trend. This lack of data could lead to misinformed investment decisions.\n   \n2. **Market Drivers**: The absence of context regarding what is driving the current rally (e.g., market sentiment, regulatory news, technological advancements) limits the ability to evaluate the sustainability of the price increase. Understanding these drivers is crucial for assessing potential risks and future price movements.\n\n### Alternative Insights:\n- **Volatility**: Bitcoin is known for its price volatility. Investors should be aware that significant price fluctuations can occur in short periods, which can impact investment timing.\n- **Market Sentiment**: Keeping an eye on broader market trends, news, and investor sentiment can provide insights into potential future movements in Bitcoin's price.\n- **Historical Performance**: Analyzing historical price patterns and previous rallies can offer context, but without specific data, this remains speculative.\n\nIn summary, the lack of detailed price trend data and insights into market drivers makes it difficult to provide a clear recommendation regarding the timing of a Bitcoin purchase.",
+    "config_id": "similarity_k5",
+    "config_signature": "6685daa78e643380",
+    "corpus_version": "financial_intelligence_v2:sec_filings_10k_fallback:sec_filings_10k.txt",
+    "configuration": {
+      "config_id": "similarity_k5",
+      "description": "Current similarity-retrieval depth of five passages",
+      "search_type": "similarity",
+      "chunk_size": 1200,
+      "chunk_overlap": 200,
+      "top_k": 5,
+      "fetch_k": null,
+      "lambda_mult": null,
+      "model": "gpt-4o-mini",
+      "temperature": 0.1,
+      "top_p": 1.0,
+      "max_tokens": 800,
+      "prompt_variant": "optimized",
+      "config_signature": "6685daa78e643380"
+    },
+    "prompt_alias": "financial_rag_prompt_optimized",
+    "retrieved_passage_count": 5,
+    "sources": [
+      {
+        "citation": "[Source 1]",
+        "dataset": "stock_price_details",
+        "source": "BTC-USD",
+        "Date": "2026-03-23",
+        "ticker": "BTC-USD"
+      },
+      {
+        "citation": "[Source 2]",
+        "dataset": "stock_price_details",
+        "source": "BTC-USD",
+        "Date": "2025-11-23",
+        "ticker": "BTC-USD"
+      },
+      {
+        "citation": "[Source 3]",
+        "dataset": "stock_price_details",
+        "source": "BTC-USD",
+        "Date": "2026-03-26",
+        "ticker": "BTC-USD"
+      },
+      {
+        "citation": "[Source 4]",
+        "dataset": "stock_price_details",
+        "source": "BTC-USD",
+        "Date": "2026-04-08",
+        "ticker": "BTC-USD"
+      },
+      {
+        "citation": "[Source 5]",
+        "dataset": "stock_price_details",
+        "source": "BTC-USD",
+        "Date": "2026-04-14",
+        "ticker": "BTC-USD"
+      }
+    ],
+    "elapsed_seconds": 3.9618876249878667
+  },
+  {
+    "test_id": 5,
+    "question": "I want to invest in AI. Out of Google, Amazon, and Apple, which one looks like the best bet right now? How are they performing, what are they saying about their AI business, and what's the buzz around them?",
+    "answer": "Based on the retrieved context, here is an analysis of the AI business prospects for Google (Alphabet), Amazon, and Apple:\n\n### Google (Alphabet)\n- **Performance and Strategy**: Google has positioned itself as a pioneer in AI, emphasizing its commitment to being an \"AI-first\" company since 2016. The company is focused on developing advanced AI technologies and integrating them across its services, including Google Cloud and consumer products like Search and YouTube. Their strategy includes a full-stack approach to AI, which encompasses AI-optimized infrastructure and advanced research capabilities [Source 1][Source 3].\n- **Risks**: The competitive landscape for AI is dynamic, with rapid technological advancements and evolving consumer preferences. Google faces risks from competitors who may innovate faster or offer more cost-effective solutions. Additionally, the high costs associated with developing and deploying AI technologies could impact operating margins [Source 4][Source 5].\n\n### Amazon\n- **Context Insufficient**: The retrieved context does not provide specific information about Amazon's current performance or strategy regarding AI. This lack of data limits the ability to assess Amazon's position in the AI market compared to Google and Apple.\n\n### Apple\n- **Context Insufficient**: Similar to Amazon, there is no specific information available regarding Apple's AI business performance or strategy in the retrieved context. This absence of data makes it challenging to evaluate Apple's competitive stance in the AI sector.\n\n### Summary of Implications\n- **Material Risks**: The lack of information on Amazon and Apple means that any investment decision regarding these companies would be based on incomplete data. This could lead to a misjudgment of their potential in the AI space. Investors should consider the competitive risks Google faces, including the need for continuous innovation and the financial implications of high operational costs in AI development.\n- **Alternative Insights**: Investors might want to look into recent news articles, earnings reports, or market analyses for Amazon and Apple to gain a clearer picture of their AI strategies and market performance. Additionally, considering the broader AI market trends and the performance of competitors like Nvidia and AMD could provide valuable context for making informed investment decisions.\n\nIn conclusion, based on the available information, Google appears to have a robust AI strategy but faces significant competitive risks. In contrast, the lack of data on Amazon and Apple necessitates caution when considering them as investment options in the AI sector.",
+    "config_id": "similarity_k5",
+    "config_signature": "6685daa78e643380",
+    "corpus_version": "financial_intelligence_v2:sec_filings_10k_fallback:sec_filings_10k.txt",
+    "configuration": {
+      "config_id": "similarity_k5",
+      "description": "Current similarity-retrieval depth of five passages",
+      "search_type": "similarity",
+      "chunk_size": 1200,
+      "chunk_overlap": 200,
+      "top_k": 5,
+      "fetch_k": null,
+      "lambda_mult": null,
+      "model": "gpt-4o-mini",
+      "temperature": 0.1,
+      "top_p": 1.0,
+      "max_tokens": 800,
+      "prompt_variant": "optimized",
+      "config_signature": "6685daa78e643380"
+    },
+    "prompt_alias": "financial_rag_prompt_optimized",
+    "retrieved_passage_count": 5,
+    "sources": [
+      {
+        "citation": "[Source 1]",
+        "dataset": "sec_filings_10k_fallback",
+        "source": "/Users/nhanle/Desktop/DBA/Projects Portfolio/Project 2/Financial_Dataset/Financial_Dataset/sec_filings_10k.txt",
+        "document_type": "10-K"
+      },
+      {
+        "citation": "[Source 2]",
+        "dataset": "global_news",
+        "source": "https://www.barchart.com/story/news/1431810/missed-nvidia-amd-could-be-your-second-chance-to-earn-massive-ai-gains",
+        "title": "Missed Nvidia? AMD Could Be Your Second Chance to Earn Massive AI Gains",
+        "published_at": "2026-04-21T19:01:31Z"
+      },
+      {
+        "citation": "[Source 3]",
+        "dataset": "sec_filings_10k_fallback",
+        "source": "/Users/nhanle/Desktop/DBA/Projects Portfolio/Project 2/Financial_Dataset/Financial_Dataset/sec_filings_10k.txt",
+        "document_type": "10-K"
+      },
+      {
+        "citation": "[Source 4]",
+        "dataset": "sec_filings_10k_fallback",
+        "source": "/Users/nhanle/Desktop/DBA/Projects Portfolio/Project 2/Financial_Dataset/Financial_Dataset/sec_filings_10k.txt",
+        "document_type": "10-K"
+      },
+      {
+        "citation": "[Source 5]",
+        "dataset": "sec_filings_10k_fallback",
+        "source": "/Users/nhanle/Desktop/DBA/Projects Portfolio/Project 2/Financial_Dataset/Financial_Dataset/sec_filings_10k.txt",
+        "document_type": "10-K"
+      }
+    ],
+    "elapsed_seconds": 7.027342209010385
+  }
+]

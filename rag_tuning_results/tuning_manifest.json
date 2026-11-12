@@ -1,0 +1,27 @@
+{
+  "created_at_utc": "2026-10-21T03:11:12.463746+00:00",
+  "configurations": [
+    "similarity_k3",
+    "similarity_k5",
+    "similarity_k8",
+    "mmr_k5"
+  ],
+  "configuration_count": 4,
+  "benchmark_example_count": 20,
+  "metric_count": 4,
+  "detailed_result_rows": 320,
+  "summary_result_rows": 16,
+  "selected_config_id": "similarity_k5",
+  "selected_prompt_variant": "optimized",
+  "files": [
+    "best_rag_configuration.json",
+    "optimized_prompt.txt",
+    "rag_configuration_comparison.csv",
+    "rag_configurations.json",
+    "rag_metric_comparison.csv",
+    "rag_metric_winners.csv",
+    "rag_tuning_details.csv",
+    "rag_tuning_summary.csv",
+    "tuning_manifest.json"
+  ]
+}

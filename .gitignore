@@ -1,0 +1,11 @@
+# Local credentials
+config.json
+
+# macOS metadata
+.DS_Store
+
+# Local evaluation telemetry
+.deepeval/
+
+# Generated local vector database
+chroma_db/
